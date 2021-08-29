@@ -9,19 +9,28 @@
     <link type="image/x-icon" rel="shortcut icon" href="https://solar.cek.ru/templates/solar/img/montage.png">
 </head>
 
-<body>
+// все классы пишутся в начале тега
+
+<body class="body">
+    <!-- отступы и комментарии всё равно уберутся в конечном варианте при сборке, поэтому их можно вставлять не жалея себя, для более простой работы -->
+    <!-- ? <_ header _> -------------------->
     <header class="header">
-            <img src="../src/img/logo.png" alt="logo" class="logo">
-            <div class="menu">
-                <ul>
-                    <li>ФОТОСЕССИИ</li>
-                    <li>АРЕНДА</li>
-                    <li>БЛОГ</li>
-                    <li>КОНТАКТЫ</li>
-                    <li>ОТЗЫВЫ</li>
-                </ul>
-            </div>
+        <img class="header__logo" src="../src/img/logo.png"> <!-- у декоративных иконок не нужен alt -->
+        <nav class="header__menu navigation">
+            <!-- приём называет микс, когда мы у элемента одного блока, создаём отдельный блок независимый от остального контекста-->
+            <ul class="navigation__list">
+                <!-- соответсвенно всё что в новом блоке, имеет его классы-->
+                <li class="navigation__item">ФОТОСЕССИИ</li>
+                <li class="navigation__item">АРЕНДА</li>
+                <li class="navigation__item">БЛОГ</li>
+                <li class="navigation__item">КОНТАКТЫ</li>
+                <li class="navigation__item">ОТЗЫВЫ</li>
+            </ul>
+        </nav>
     </header>
+    <!-- ? <_ header _> -------------------->
+
+
     <script src="../dist/bundle.js"></script>
 </body>
 
