@@ -13,9 +13,9 @@
 
 // ? <_ BUTTONS _>=============================================================================================
 .btn {
-    display: inline-flex;
-    padding: 0px 0px;
-    transition: 0.2s;
+	display: inline-flex;
+	padding: 0px 0px;
+    transition: .2s;
 
     @media (min-width: $md2+px) {
         &:hover {
