@@ -13,7 +13,13 @@ $md1: 540;
 
 
 // todo <_ colors _> =====================================================
-$color-bc: #fff;
+$bg-dark: #080808;
+$main-text: #080808;
+$sec-text: #F1F2F2;
+$bg-light: #F1F2F2;
+$btn-light: #F1F2F2;
+$bg-grey: #B1B4BD;
+$btn-main: #B1B4BD;
 
 
 // ? </ПЕРЕМЕННЫЕ>===========================================================================================================
@@ -56,7 +62,7 @@ $color-bc: #fff;
 
 
 // ? <_ MAIN GRID  _> =============================================================================================
-._container {
+.container {
     max-width: $maxWidthContainer + px;
     padding: 0 10px;
 	margin: 0 auto;
@@ -83,7 +89,7 @@ body {
 	display: flex;
 	flex-direction: column;
 
-    background-color: $color-bc;
+    background-color: $bg-light;
 
     color: $font-color;
     font-size: $font-size;

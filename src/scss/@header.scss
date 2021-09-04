@@ -1,8 +1,12 @@
 .header {
+    
     &__menu {
+        display: flex;
     }
 
     &__logo {
+        width: 3rem;
+        height: 3rem;
     }
 }
 
