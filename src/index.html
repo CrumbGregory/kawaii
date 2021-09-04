@@ -13,22 +13,20 @@
     `
     <!-- ? <_ header _> -------------------->
     <header class="header">
-        <nav class="header__menu navigation">
-<<<<<<< HEAD
-            <img class="header__logo" src="../src/img/logo.jpg"> <!-- у декоративных иконок не нужен alt -->
-=======
-            <img class="header__logo" src="../src/img/logo.png"> <!-- у декоративных иконок не нужен alt -->
->>>>>>> edae6585fc1624e0fccbbbac98d7e246982a7e65
-            <!-- приём называет микс, когда мы у элемента одного блока, создаём отдельный блок независимый от остального контекста-->
-            <ul class="navigation__list">
-                <!-- соответсвенно всё что в новом блоке, имеет его классы-->
-                <li class="navigation__item"><a class="navigation__link" href="#">фотосессия</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#">АРЕНДА</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#">БЛОГ</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#">КОНТАКТЫ</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#">ОТЗЫВЫ</a></li>
-            </ul>
-        </nav>
+        <div class="header__container container">
+            <nav class="header__menu navigation">
+                <img class="header__logo" src="../src/img/logo.png"> <!-- у декоративных иконок не нужен alt -->
+                <!-- приём называет микс, когда мы у элемента одного блока, создаём отдельный блок независимый от остального контекста-->
+                <ul class="navigation__list">
+                    <!-- соответсвенно всё что в новом блоке, имеет его классы-->
+                    <li class="navigation__item"><a class="navigation__link" href="#">фотосессия</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">АРЕНДА</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">БЛОГ</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">КОНТАКТЫ</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">ОТЗЫВЫ</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- ? <_ header _> -------------------->
 
@@ -57,12 +55,22 @@
                 <p class="about__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea!</p>
                 <!-- тут идёт стандартная разметка свайпера, с добавлением обычных классов для работы в нашем -->
                 <div class="about__slider slider-about swiper-container">
-                    <div class="slider-about__wrapper swiper-wrapper">
-                        <div class="slider-about__slide swiper-slide">
-
-                        </div>
-                    </div>
+                    <ul class="slider-about__wrapper swiper-wrapper">
+                        <li class="slider-about__slide swiper-slide">
+                            <img src="img/whatis.jpg" alt="" class="slider-about__slide-img">
+                        </li>
+                        <li class="slider-about__slide swiper-slide">
+                            <img src="img/whatis.jpg" alt="" class="slider-about__slide-img">
+                        </li>
+                        <li class="slider-about__slide swiper-slide">
+                            <img src="img/whatis.jpg" alt="" class="slider-about__slide-img">
+                        </li>
+                        <li class="slider-about__slide swiper-slide">
+                            <img src="img/whatis.jpg" alt="" class="slider-about__slide-img">
+                        </li>
+                    </ul>
                 </div>
+                <button class="about__button btn">записаться</button>
             </div>
         </section>
         <!-- ? <_ about _> -------------------->
@@ -72,7 +80,17 @@
         <!-- ? <_ team _> -------------------->
         <section class="team">
             <div class="team__container container">
-                team
+                <div class="team__slider slider-team swiper-container">
+                    <ul class="slider-team__wrapper swiper-wrapper">
+                        <li class="slider-team__slide team-slide swiper-slide">
+                            <img src="img/whatis.jpg" alt="" class="team-slide__img">
+                            <div class="team-slide__content">
+                                <h3 class="team-slide__title">Артём Запарин</h3>
+                                <p></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <!-- ? <_ team _> -------------------->

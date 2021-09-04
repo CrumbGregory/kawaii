@@ -11,21 +11,19 @@
 }
 // ?  <_ FORM _>=============================================================================================
 
-
-
 // ? <_ BUTTONS _>=============================================================================================
-._btn {
-	display: inline-flex;
-	padding: 0px 0px;
-    transition: .2s;
+.btn {
+    display: inline-flex;
+    padding: 0px 0px;
+    transition: 0.2s;
 
-	@media (min-width: $md2+px) {
-		&:hover {
+    @media (min-width: $md2+px) {
+        &:hover {
             transform: scale(1.1);
-		}
+        }
         &:active {
             transform: scale(1.05);
         }
-	}
+    }
 }
 // ? <_ BUTTONS _>=============================================================================================
