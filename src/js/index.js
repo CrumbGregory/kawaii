@@ -1,2 +1,1 @@
-import sliders from "./sliders"
-console.log("hello");
+import "../scss/style.scss"
