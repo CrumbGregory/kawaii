@@ -1,125 +1,121 @@
 // ? <_ all object _> =============================================================================================
 * {
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
 
-*, *:before, *:after {
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
-*:before, *:after {
-   display: inline-block;
+*:before,
+*:after {
+    display: inline-block;
 }
 
-*:focus, *:active {
-	outline: none;
+*:focus,
+*:active {
+    outline: none;
 }
 // ? <_ all object _> =============================================================================================
 
-
-
-
-
 // ? <_ links _> =============================================================================================
-a, a:visited, a:hover {
-	text-decoration: none;
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
 }
 // ? <_ links _> =============================================================================================
-
-
-
-
 
 // ? <_ blocks _> =============================================================================================
-aside, nav, footer, header, section, blockquote {
-	display: block;
+aside,
+nav,
+footer,
+header,
+section,
+blockquote {
+    display: block;
 }
 
-html, body {
-	height: 100%;
-	min-width: $minWidth;
+html,
+body {
+    height: 100%;
+    min-width: $minWidthContainer;
 }
 
 body {
-	line-height: 1;
-	//text-rendering: optimizeLegibility;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+    line-height: 1;
+    //text-rendering: optimizeLegibility;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 // ? <_ blocks _> =============================================================================================
 
-
-
-
-
 // ? <_ forms _> =============================================================================================
-input, button, textarea {
-	font-family: $fontFamily;
+input,
+button,
+textarea {
+    font-family: $font-family;
 }
 
 input::-ms-clear {
-	display: none;
+    display: none;
 }
 
 button {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 button::-moz-focus-inner {
-	padding: 0;
-	border: 0;
+    padding: 0;
+    border: 0;
 }
 // ? <_ forms _> =============================================================================================
 
-
-
-
-
 // ? <_ lists _> =============================================================================================
-ul, li {
+ul,
+li {
     list-style: none;
- }
+}
 // ? <_ lists _> =============================================================================================
-
-
-
-
 
 // ? <_ other _> =============================================================================================
 img {
-	display: block;
-   width: 100%;
+    display: block;
+    width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: inherit;
-	font-size: inherit;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
 }
 // ? <_ other _> =============================================================================================
 
-
-
-
-
 // ? <_ table _> =============================================================================================
 table {
-	display: table;
-	font-size: 0;
-	width: 100%;
-	//table-layout: fixed;
+    display: table;
+    font-size: 0;
+    width: 100%;
+    //table-layout: fixed;
 }
 
 tr {
-	display: table-row;
+    display: table-row;
 }
 
 td {
-	display: table-cell;
+    display: table-cell;
 }
 // ? <_ table _> =============================================================================================
 
