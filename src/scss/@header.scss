@@ -2,16 +2,19 @@
     
     &__menu {
         display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-bottom: 20px;
     }
 
     &__logo {
-        width: 3rem;
-        height: 3rem;
+        
     }
 }
 
 .navigation {
     &__list {
+        display: flex;
     }
 
     &__item {
