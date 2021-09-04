@@ -1,0 +1,75 @@
+//
+// todo <_ ellipsis _> =========================================================================
+//
+.ellipsis {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.es {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+
+//
+// todo <_ img _> =========================================================================
+//
+.img {
+	position: relative;
+
+	img {
+		width: 100%;
+		height: 100%;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+	}
+}
+
+//
+// todo <_ video _> =========================================================================
+//
+.video {
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+	overflow: hidden;
+
+	video,
+	iframe,
+	object,
+	embed {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+.videobg {
+	video,
+	iframe,
+	object,
+	embed {
+		width: auto;
+		height: auto;
+		min-width: 100%;
+		min-height: 100%;
+
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		
+        background-size: cover;
+
+		z-index: -100;
+		transform: translateX(-50%) translateY(-50%);
+	}
+}
