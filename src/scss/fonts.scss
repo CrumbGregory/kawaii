@@ -33,6 +33,15 @@
 // todo <_ font import _> =====================================================
 //&display=swap&subset=cyrillic-ext
 
+@font-face {
+	font-family: 'fractal';
+	src: url('../fonts/fractal/ofont.ru_FRACTAL.eot');
+	src: local('☺'), url('../fonts/fractal/ofont.ru_FRACTAL.woff') format('woff'), url('../fonts/fractal/ofont.ru_FRACTAL.ttf') format('truetype'), url('../fonts/fractal/ofont.ru_FRACTAL.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 
 // todo <_ font settings _> =====================================================
 $font-family: "gilroy"; 

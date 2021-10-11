@@ -4,16 +4,17 @@ $min-width-container: 320;
 $max-width-container: 1170;
 
 // todo <_ breakpoints _> =====================================================
-$md5: 1440;
-$md4: 1200;
-$md3: 992;
-$md2: 768;
-$md1: 540;
+$md5: 1440px;
+$md4: 1200px;
+$md3: 992px;
+$md2: 768px;
+$md1: 540px;
 
 // todo <_ colors _> =====================================================
 $bg-dark: #080808;
 $main-text: #080808;
 $sec-text: #F1F2F2;
+$grey-text: #B1B4BD;
 $bg-light: #F1F2F2;
 $btn-light: #F1F2F2;
 $bg-grey: #B1B4BD;
@@ -27,7 +28,7 @@ $btn-main: #B1B4BD;
 //
 @import "./mixins.scss";
 
-@import "./fonts.scss";
+@import "fonts.scss";
 @import "./forms.scss";
 @import "./ui.scss";
 //
