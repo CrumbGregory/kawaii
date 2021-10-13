@@ -127,8 +127,10 @@
 
     &__gallerey {
         display: grid;
-        grid-template-columns: 2fr 1fr 2fr;
-        grid-template-rows: 497px;
+        grid-template-columns: repeat(3, auto);
+        grid-auto-rows: 20rem;
+        grid-auto-flow: dense;
+        counter-reset: item;
         margin-bottom: 8.8rem;
     }
 
@@ -151,6 +153,9 @@
     }
 
     &__galerey-item-4 {
+        grid-row-start:2;
+        grid-column-start: 3;
+
         max-width: 61.3rem;
         max-height: 23.2rem;
     }
