@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 7rem);
 
 
 
@@ -98,7 +98,7 @@
     top: 70%;
     left: 25%;
 }
-// sirst-screen
+// first-screen
 
 
 // about
@@ -125,7 +125,7 @@
 
     }
 
-    &__gallerey {
+    &__gallery {
         display: grid;
         grid-template-columns: repeat(3, auto);
         grid-auto-rows: 20rem;
@@ -134,25 +134,25 @@
         margin-bottom: 8.8rem;
     }
 
-    &__galerey-item {
+    &__galery-item {
     }
 
-    &__galerey-item-1 {
+    &__galery-item-1 {
         max-width: 82.7rem;
         max-height: 60.9rem;
     }
 
-    &__galerey-item-2 {
+    &__galery-item-2 {
         max-width: 23.1rem;
         max-height: 37.7rem;
     }
 
-    &__galerey-item-3 {
+    &__galery-item-3 {
         max-width: 38.2rem;
         max-height: 37.7rem;
     }
 
-    &__galerey-item-4 {
+    &__galery-item-4 {
         grid-row-start:2;
         grid-column-start: 3;
 

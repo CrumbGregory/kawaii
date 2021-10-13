@@ -19,7 +19,10 @@
 
     &__item {
         display: inline-block;
-        
+        transition: .15s;
+        &:hover{
+            transform: scale(1.08);
+        }
         &:not(:last-child) {
             margin-right: 5rem;
             @media (max-width: $md3) {
@@ -35,12 +38,11 @@
         font-family: 'fractal';
         font-size: 1.6rem;
         color: $sec-text;
-        
+        transition: .15s;
 
         &:hover{
-            font-size: 1.7rem;
+            transform: scale(1.2);
             color: $grey-text;
-            transition: .15s;
         }
 
 
