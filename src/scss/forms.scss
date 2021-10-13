@@ -14,15 +14,23 @@
 // ? <_ BUTTONS _>=============================================================================================
 .btn {
     display: inline-flex;
-    padding: 0px 0px;
+    padding: 21px 26px;
+    color: $btn-light;
+    border: 2px solid $btn-light;
+    background: none;
+    font-family: 'fractal';
+    font-size: 2.8rem;
     transition: 0.2s;
 
-    @media (min-width: $md2+px) {
+    
+    @media (min-width: $md2) {
         &:hover {
-            transform: scale(1.1);
+            transform: scale(1.02);
+            border: none;
+            background: $btn-main;
         }
         &:active {
-            transform: scale(1.05);
+            transform: scale(1);
         }
     }
 }

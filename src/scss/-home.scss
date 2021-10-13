@@ -1,0 +1,170 @@
+// first-screen
+.first-screen {
+
+    &__container {
+    }
+}
+.intro {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+
+    &__media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $bg-grey url(../img/bgfirstscr.jpg) no-repeat center center;
+        background-size: cover;
+        overflow: hidden;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background-color: rgba(0, 0, 0, .5);
+        }
+
+    }
+
+    &__media-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+    }
+
+    &__content {
+        z-index: 3;
+    }
+}
+.intro {
+
+    &__content-title {
+    }
+}
+.main-text {
+
+    &__text-bold {
+        position: absolute;
+        top: 5%;
+        left: 20%;
+        font-family: 'mulish-bold';
+        font-size: 7.2rem;
+        color: $sec-text;
+    }
+
+    &__text-reg__first {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        font-family: 'mulish-light';
+        font-size: 7.2rem;
+        color: $sec-text;
+    }
+
+    &__text-reg__second {
+        position: absolute;
+        top: 35%;
+        left: 21.5%;
+        font-family: 'mulish-light';
+        font-size: 7.2rem;
+        color: $sec-text;
+    }
+}
+.sec-text {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    font-family: 'mulish-light';
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: $sec-text;
+}
+.sign-up {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+// sirst-screen
+
+
+// about
+
+
+.about {
+    background: $bg-grey;
+    &__container {
+    }
+
+    &__title {
+        padding: 6rem 0 8.5rem;
+        text-align: center;
+        font-family: 'mulish-regular';
+        font-size: 6rem;
+        color: $font-color;
+    }
+
+    &__subtitle {
+        margin-bottom: 5rem;
+        text-align: center;
+        font-family: 'made-likes';
+        font-size: 4.8rem;
+
+    }
+
+    &__gallerey {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 497px;
+        margin-bottom: 8.8rem;
+    }
+
+    &__galerey-item {
+    }
+
+    &__galerey-item-1 {
+        max-width: 82.7rem;
+        max-height: 60.9rem;
+    }
+
+    &__galerey-item-2 {
+        max-width: 23.1rem;
+        max-height: 37.7rem;
+    }
+
+    &__galerey-item-3 {
+        max-width: 38.2rem;
+        max-height: 37.7rem;
+    }
+
+    &__galerey-item-4 {
+        max-width: 61.3rem;
+        max-height: 23.2rem;
+    }
+
+    &__button {
+        display: block;
+        margin: 0 auto;
+    }
+}
+.container {
+}
+.title {
+}
+
+
+
+// about
