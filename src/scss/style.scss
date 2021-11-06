@@ -48,13 +48,14 @@ $btn-main: #B1B4BD;
 @import "./reset.scss";
 //
 // todo <_ libraries _> =========================================================================
-//
-@import '../../node_modules/swiper/swiper-bundle.css';
+
+
+
 // ? <_ INSTALL FILE _> =============================================================================================
 
 // ? <_ MAIN GRID  _> =============================================================================================
 .container {
-    max-width: $max-width-container + px;
+    max-width: $max-width-container+px;
     padding: 0 10px;
     margin: 0 auto;
 

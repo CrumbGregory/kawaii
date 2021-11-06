@@ -1,2 +1,9 @@
 import "../scss/style.scss";
-import "./slider";
+
+
+new Swiper ('.team__slider', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+});

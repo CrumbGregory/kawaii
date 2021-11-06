@@ -18,6 +18,7 @@
 .navigation {
 
     &__item {
+        position: relative;
         display: inline-block;
         transition: .15s;
         &:hover{
@@ -58,6 +59,33 @@
     }
 }
 
+
+// .sub-navigation__list {
+//     display: none;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+// }
+
+// .sub-navigation__item {
+
+// }
+
+// .sub-navigation__link {
+//     color: $grey-text;
+// }
+
+// .sub-sub-navigation__list {
+
+// }
+
+// .sub-sub-navigation__item {
+
+// }
+
+// .sub-sub-navigation__link {
+
+// }
 
 
 

@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAWAII</title>
-    <link type="image/x-icon" rel="shortcut icon" href="https://solar.cek.ru/templates/solar/img/montage.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <link type="image/x-icon" rel="shortcut icon" href="img/vizitka.png">
 </head>
 
 <body>
@@ -15,12 +17,30 @@
     <header class="header">
         <div class="header__container container">
             <nav class="header__menu navigation">
-                <img class="header__logo" src="/src/img/logo.png"> <!-- у декоративных иконок не нужен alt -->
+                <img class="header__logo" src="/src/img/vizitka.png"> <!-- у декоративных иконок не нужен alt -->
                 <!-- приём называет микс, когда мы у элемента одного блока, создаём отдельный блок независимый от остального контекста-->
                 <ul class="navigation__list">
                     <!-- соответсвенно всё что в новом блоке, имеет его классы-->
-                    <li class="navigation__item"><a class="navigation__link" href="#">ФОТОСЕССИЯ</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">АРЕНДА</a></li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">ФОТОСЕССИЯ</a>
+                        <!-- <ul class="sub-navigation__list">
+                            <li class="sub-navigation__item">
+                                <a href="" class="sub-navigation__link">ОГО</a>
+                            </li>
+                            <li class="sub-navigation__item">
+                                <a href="" class="sub-navigation__link">ВАУ</a>
+                                <ul class="sub-sub-navigation__list">
+                                    <li class="sub-sub-navigation__item">
+                                        <a href="" class="sub-sub-navigation__link">чел, ты...</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub-navigation__item">
+                                <a href="" class="sub-navigation__link">ЕПТА</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">ФОТО/РЕТУШЬ</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="#">БЛОГ</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="#">КОНТАКТЫ</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="#">ОТЗЫВЫ</a></li>
@@ -87,35 +107,60 @@
         <!-- ? <_ about _> -------------------->
 
 
-
         <!-- ? <_ team _> -------------------->
-        <!--<section class="team">
+        <section class="team">
             <div class="team__container container">
                 <div class="team__slider slider-team swiper-container">
                     <div class="slider-team__wrapper swiper-wrapper">
                         <div class="slider-team__slide swiper-slide">
-                            <img class="slider-team__image" src="./img/bgfirstscr.jpg" alt="what is it!?!?!">
+                            <img class="slider-team__image active" src="./img/bgfirstscr.jpg" alt="whatisit!?!?!">
                         </div>
                         <div class="slider-team__slide swiper-slide">
-                            <img class="slider-team__image" src="./img/bgfirstscr.jpg" alt="what is it!?!?!">
+                            <img class="slider-team__image" src="./img/bgfirstscr.jpg" alt="whatisit!?!?!">
                         </div>
                         <div class="slider-team__slide swiper-slide">
-                            <img class="slider-team__image" src="./img/bgfirstscr.jpg" alt="what is it!?!?!">
+                            <img class="slider-team__image" src="./img/bgfirstscr.jpg" alt="whatisit!?!?!">
                         </div>
                         <div class="slider-team__slide swiper-slide">
-                            <img class="slider-team__image" src="./img/bgfirstscr.jpg" alt="what is it!?!?!">
+                            <img class="slider-team__image" src="./img/bgfirstscr.jpg" alt="whatisit!?!?!">
                         </div>
-                    </div>
-                    <button class="slider-team__button slider-team__button--prev swiper-button-prev"></button>
-                    <button class="slider-team__button slider-team__button--next swiper-button-next"></button>
+                    
                 </div>
+                <button class="swiper-button-prev"></button>
+                <button class="swiper-button-next"></button>
             </div>
-        </section>-->
+        </section>
         <!-- ? <_ team _> -------------------->
 
 
 
 
+
+
+
+
+
+        <!-- ? <_ reviews _> -------------------->
+            <section class="reviews">
+                <div class="reviews__container container">
+                    <h2 class="reviews__title title">ОТЗЫВЫ</h2>
+                    <p class="reviews__subtitle">Огромное количество людей отзывается о KAWAII с благодарностью и нам очень приятно получать такие отзывы</p>
+                </div>
+                <div class="reviews__columns">
+                    <div class="write-column">
+                        <img class="" src="" alt="">
+                    </div>
+                    <div class="video-column"></div>
+                </div>
+            </section>
+            <!-- ? <_ reviews _> -------------------->
+
+
+
+
+
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script src="../dist/bundle.js"></script>
 </body>
 
