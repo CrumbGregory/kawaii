@@ -184,7 +184,8 @@
     &__slider {
     }
 }
-
+.container {
+}
 .slider-team {
 
     &__wrapper {
@@ -195,4 +196,20 @@
 
     &__image {
     }
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #000;
+    font-size: 80px;
 }
