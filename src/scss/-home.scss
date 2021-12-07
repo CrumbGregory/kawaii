@@ -108,21 +108,6 @@
     &__container {
     }
 
-    &__title {
-        padding: 6rem 0 8.5rem;
-        text-align: center;
-        font-family: 'mulish-regular';
-        font-size: 6rem;
-        color: $font-color;
-    }
-
-    &__subtitle {
-        margin-bottom: 5rem;
-        text-align: center;
-        font-family: 'made-likes';
-        font-size: 4.8rem;
-    }
-
     &__gallery {
         margin-bottom: 8.8rem;
     }
@@ -176,40 +161,50 @@
 
 
 // team
+
 .team {
 
     &__container {
     }
 
-    &__slider {
+    &__title {
+    }
+
+    &__subtitle {
     }
 }
 .container {
 }
-.slider-team {
+
+.team-slider {
 
     &__wrapper {
+        
     }
 
     &__slide {
     }
 
     &__image {
+        text-align: center;
+        img {
+            max-width: 100%;
+        }
     }
-}
-.swiper {
 }
 .swiper-wrapper {
 }
 .swiper-slide {
 }
-.swiper-button-prev {
-}
-.swiper-button-next {
+
+.swiper {
+    width: 60rem;
+    height: 60rem;
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    color: #000;
-    font-size: 80px;
+.swiper-button-prev {
+    
 }
+
+
+//team
